@@ -29,7 +29,7 @@ class MainKtTest {
         val type = "Mir"
         val amount = 10_000_00
         val total = 100_000_00
-        val expect = 75_00
+        val expect = 70_00
 
         //act
         val result = calculateFee(type, total, amount)
